@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="age.css" />
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  </head>
+  <body>
+    <!-- Inside the body tag -->
+    <button class="shadow" id="b" onclick="toggleDarkMode()">
+      Toggle Dark Mode
+    </button>
+    <!-- The main container for our age calculator -->
+    <h1 id="h">Age Calculator</h1>
+
+    <label id="button" for="birthDate">Enter the birth date :</label>
+    <input type="date" id="birthDate" />
+
+    <button class="t" onclick="calculateAndDisplayAge()">
+      Calculate Age
+    </button>
+
+    <div class="shadow" id="result-container">
+      <div  class="result-item" id="years"></div>
+      <div  class="result-item" id="months"></div>
+      <div  class="result-item" id="days"></div>
+      <div  class="result-item" id="hours"></div>
+      <div  class="result-item" id="minutes"></div>
+      <div  class="result-item" id="seconds"></div>
+    </div>
+
+    <script src="age.js"></script>
+
+    <footer class="shadow" id="neon" class="sticky-footer">
+      <div class="main">
+        <div class="shadow" class="name"> <div class="f"><p>All copyright reserved by © Mohamed Mostafa Ebied</p>
+          
+          <div class="social">
+              <ul>
+                <li>
+                <a
+                  href="https://www.facebook.com/mohamed.mostafaebied"
+                  target="_blank"
+                  ><i class="fa-brands fa-facebook" style="color: #6495ed;"></i
+                ></a>
+                  </li>
+                  <li>
+                <a
+                  href="https://www.instagram.com/_mohamed_mostafa_it_/"
+                  target="_blank" ><i class="fa-brands fa-instagram" style="color: #6495ed;"></i></a>
+                  </li>
+              </ul>
+           
+          </div>
+
+          </div>
+        </div>
+          <div class="back">
+         
+    </footer>
+  </body>
+</html>
